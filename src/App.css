@@ -1,0 +1,61 @@
+.active {
+  border-color: #1724ab;
+  background-color: rgb(197, 197, 197);
+}
+
+.btn-buscar {
+  background-color: #1724ab !important;
+  border-color: #1724ab !important;
+  padding: 0.25rem 1.5rem !important;
+  border-radius: 0px !important;
+}
+
+.btn-clean {
+  background-color: transparent !important;
+  color: #1724ab !important;
+  border-color: #1724ab !important;
+  padding: 0.25rem 1.5rem !important;
+  border-radius: 0px !important;
+  border-width: 1.25px !important;
+}
+
+.d-btn {
+  border-style: solid;
+  border-width: 2px;
+  padding: 1%;
+  min-height: 100px;
+  font-size: 8px;
+}
+
+.d-btn:hover {
+  background-color: rgb(197, 197, 197);
+}
+
+.d-btn::-moz-focus-inner {
+  border: 0;
+}
+
+.clarity-filter,
+.shape-filter,
+.color-filter,
+.cut-filter {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.shape-filter .d-btn {
+  width: 16.666%;
+}
+
+.color-filter .d-btn {
+  width: 25%;
+}
+
+.clarity-filter .d-btn {
+  width: 25%;
+}
+
+.cut-filter .d-btn {
+  width: 25%;
+}
