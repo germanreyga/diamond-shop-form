@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e744337fbb0beb6294bf15442468c682",
+    "revision": "4ee67a6d33609336d7f07706eba6c700",
     "url": "/diamond-shop-form/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/diamond-shop-form/static/css/2.d42e62a9.chunk.css"
   },
   {
-    "revision": "621aa2832da1b1391200",
+    "revision": "c62a5837da73e8ef21bd",
     "url": "/diamond-shop-form/static/css/main.a0bf0f94.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/diamond-shop-form/static/js/2.d351e9b9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "621aa2832da1b1391200",
-    "url": "/diamond-shop-form/static/js/main.f92df082.chunk.js"
+    "revision": "c62a5837da73e8ef21bd",
+    "url": "/diamond-shop-form/static/js/main.d12b6ee6.chunk.js"
   },
   {
     "revision": "05475cc3537b5faa2c32",
