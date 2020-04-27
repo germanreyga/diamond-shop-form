@@ -21,7 +21,13 @@ const ButtonFilter = (props) => {
 
   return (
     <div>
-      <div>{label}</div>
+      <div>
+        {label}{" "}
+        <img
+          src="/assets/img/tooltip-2.png"
+          style={{ height: 12, width: 10 }}
+        ></img>
+      </div>
       <div className={style}>{listImages}</div>
     </div>
   );

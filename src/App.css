@@ -59,3 +59,8 @@
 .cut-filter .d-btn {
   width: 25%;
 }
+
+.range-inp {
+  width: 48% !important;
+  background-color: rgb(230, 230, 230) !important;
+}

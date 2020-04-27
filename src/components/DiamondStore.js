@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import ButtonFilter from "./ButtonFilter";
+import SliderFilter from "./SliderFilter";
 import * as data from "../DiamondData";
 import { Container, Row, Col } from "react-bootstrap";
 
@@ -20,6 +21,14 @@ const DiamondStore = () => {
   let cutButtonsImgs = data.cutImgs;
   let cutButtonsValues = data.cutValues;
 
+  const [caratRange, setCaratRange] = useState("none");
+  let caratImgs = data.caratImgs;
+  let caratValues = data.caratValues;
+
+  const [priceRange, setPriceRange] = useState("none");
+
+  const [loaded, setLoaded] = useState({ min: 0, max: 30 });
+
   function onShapeSelect(shapeValue) {
     setShape(shapeValue);
   }
@@ -36,15 +45,26 @@ const DiamondStore = () => {
     setCut(cutValue);
   }
 
+  function onCaratSelect(caratRange) {
+    setCaratRange(caratRange);
+  }
+
+  function onPriceSelect(priceRange) {
+    setPriceRange(priceRange);
+  }
+
   function sendForm() {
     const data = {
       shape: shape,
       color: color,
       clarity: clarity,
       cut: cut,
+      caratRange: caratRange,
+      priceRange: priceRange,
     };
 
-    console.log(data);
+    console.dir(data);
+    window.alert("DATOS:\n" + JSON.stringify(data));
   }
 
   function cleanForm() {
@@ -52,6 +72,7 @@ const DiamondStore = () => {
     setColor("none");
     setClarity("none");
     setCut("none");
+    setCaratRange("none");
   }
 
   return (
@@ -102,6 +123,28 @@ const DiamondStore = () => {
                 selectedOption={cut}
                 fstyle={"cut-filter"}
                 labelName={"Corte"}
+              />
+            </Col>
+            <Col md={12}>
+              <SliderFilter
+                min={loaded.min}
+                max={loaded.max}
+                loaded={loaded}
+                labelName={"Quilataje"}
+                imgs={caratImgs}
+                values={caratValues}
+                selectHandler={onCaratSelect}
+                sType={"number"}
+              />
+            </Col>
+            <Col md={12}>
+              <SliderFilter
+                min={loaded.min}
+                max={loaded.max}
+                loaded={loaded}
+                labelName={"Precio"}
+                selectHandler={onPriceSelect}
+                sType={"price"}
               />
             </Col>
           </Row>

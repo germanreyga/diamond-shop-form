@@ -2,6 +2,7 @@ const SHAPE_PATH = "/assets/img/Forma";
 const COLOR_PATH = "/assets/img/Color";
 const CLAR_PATH = "/assets/img/Claridad";
 const CUT_PATH = "/assets/img/Corte";
+const CARAT_PATH = "/assets/img/Quilataje";
 
 const shapeImgs = [
   `${SHAPE_PATH}/asscher.png`,
@@ -70,6 +71,10 @@ const cutImgs = [
 
 const cutValues = ["bueno", "excelente", "muy bueno", "regular"];
 
+const caratImgs = [`${CARAT_PATH}/pequeno.png`, `${CARAT_PATH}/grande.png`];
+
+const caratValues = ["pequeño", "grande"];
+
 export {
   shapeImgs,
   shapeValues,
@@ -79,4 +84,6 @@ export {
   clarityValues,
   cutImgs,
   cutValues,
+  caratImgs,
+  caratValues,
 };

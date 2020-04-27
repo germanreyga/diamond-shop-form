@@ -1,6 +1,6 @@
 # Diamond Shop form in React
 
-This simple project is an HTML form created using React's functional components and hooks. When a user submits the form, the information is serialized and is logged in the console.
+This simple project is an HTML responsive form created using React's functional components and hooks. When a user submits the form, the information is serialized and is logged in the console.
 
 ## Information
 
