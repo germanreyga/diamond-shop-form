@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/diamond-shop-form/precache-manifest.e149133da6b83af1b04420a875aac21e.js"
+  "/diamond-shop-form/precache-manifest.678b32bbd1c16cce8509d296573b249e.js"
 );
 
 self.addEventListener('message', (event) => {

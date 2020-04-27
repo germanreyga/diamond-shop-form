@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/diamond-shop-form/static/css/main.a0bf0f94.chunk.css",
-    "main.js": "/diamond-shop-form/static/js/main.d12b6ee6.chunk.js",
-    "main.js.map": "/diamond-shop-form/static/js/main.d12b6ee6.chunk.js.map",
+    "main.js": "/diamond-shop-form/static/js/main.557bfeb3.chunk.js",
+    "main.js.map": "/diamond-shop-form/static/js/main.557bfeb3.chunk.js.map",
     "runtime-main.js": "/diamond-shop-form/static/js/runtime-main.4c5244c7.js",
     "runtime-main.js.map": "/diamond-shop-form/static/js/runtime-main.4c5244c7.js.map",
     "static/css/2.d42e62a9.chunk.css": "/diamond-shop-form/static/css/2.d42e62a9.chunk.css",
     "static/js/2.d351e9b9.chunk.js": "/diamond-shop-form/static/js/2.d351e9b9.chunk.js",
     "static/js/2.d351e9b9.chunk.js.map": "/diamond-shop-form/static/js/2.d351e9b9.chunk.js.map",
     "index.html": "/diamond-shop-form/index.html",
-    "precache-manifest.e149133da6b83af1b04420a875aac21e.js": "/diamond-shop-form/precache-manifest.e149133da6b83af1b04420a875aac21e.js",
+    "precache-manifest.678b32bbd1c16cce8509d296573b249e.js": "/diamond-shop-form/precache-manifest.678b32bbd1c16cce8509d296573b249e.js",
     "service-worker.js": "/diamond-shop-form/service-worker.js",
     "static/css/2.d42e62a9.chunk.css.map": "/diamond-shop-form/static/css/2.d42e62a9.chunk.css.map",
     "static/css/main.a0bf0f94.chunk.css.map": "/diamond-shop-form/static/css/main.a0bf0f94.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.d42e62a9.chunk.css",
     "static/js/2.d351e9b9.chunk.js",
     "static/css/main.a0bf0f94.chunk.css",
-    "static/js/main.d12b6ee6.chunk.js"
+    "static/js/main.557bfeb3.chunk.js"
   ]
 }
