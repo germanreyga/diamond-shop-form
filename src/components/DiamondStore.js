@@ -27,8 +27,6 @@ const DiamondStore = () => {
 
   const [priceRange, setPriceRange] = useState("none");
 
-  const [loaded, setLoaded] = useState({ min: 0, max: 30 });
-
   function onShapeSelect(shapeValue) {
     setShape(shapeValue);
   }
@@ -127,9 +125,8 @@ const DiamondStore = () => {
             </Col>
             <Col md={12}>
               <SliderFilter
-                min={loaded.min}
-                max={loaded.max}
-                loaded={loaded}
+                min={0}
+                max={20}
                 labelName={"Quilataje"}
                 imgs={caratImgs}
                 values={caratValues}
@@ -139,9 +136,8 @@ const DiamondStore = () => {
             </Col>
             <Col md={12}>
               <SliderFilter
-                min={loaded.min}
-                max={loaded.max}
-                loaded={loaded}
+                min={200}
+                max={5000000}
                 labelName={"Precio"}
                 selectHandler={onPriceSelect}
                 sType={"price"}

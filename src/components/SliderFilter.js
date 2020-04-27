@@ -5,7 +5,6 @@ import { Row, Col } from "react-bootstrap";
 const SliderFilter = (props) => {
   const label = props.labelName;
   const changeRange = props.selectHandler;
-  const isReloaded = props.isReloaded;
   const type = props.sType;
 
   const [caratRange, setCaratRange] = useState({
@@ -26,14 +25,14 @@ const SliderFilter = (props) => {
             <img
               className="float-left align-bottom"
               style={{ bottom: 0, position: "absolute" }}
-              src={props.imgs[0]}
+              src={process.env.PUBLIC_URL + props.imgs[0]}
               alt={props.values[0]}
             />
           </Col>
           <Col xs={6}>
             <img
               className="float-right align-bottom"
-              src={props.imgs[1]}
+              src={process.env.PUBLIC_URL + props.imgs[1]}
               alt={props.values[1]}
             />
           </Col>

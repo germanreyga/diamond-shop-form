@@ -8,7 +8,7 @@ const DButton = (props) => {
         props.selectHandler(props.value);
       }}
     >
-      <img src={props.img} alt={props.value} />
+      <img src={process.env.PUBLIC_URL + props.img} alt={props.value} />
       <br />
       <div style={{ fontFamily: "NunitoSans" }}>
         {props.value.toUpperCase()}

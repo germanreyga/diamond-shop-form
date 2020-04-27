@@ -24,8 +24,9 @@ const ButtonFilter = (props) => {
       <div>
         {label}{" "}
         <img
-          src="/assets/img/tooltip-2.png"
+          src={process.env.PUBLIC_URL + "/assets/img/tooltip-2.png"}
           style={{ height: 12, width: 10 }}
+          alt={"tooltip"}
         ></img>
       </div>
       <div className={style}>{listImages}</div>
